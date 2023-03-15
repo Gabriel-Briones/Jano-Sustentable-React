@@ -2,12 +2,23 @@ import { Link } from "react-router-dom"
 import { ItemCount } from "../ItemCount/ItemCount"
 import { useDarkModeContext } from "../../context/DarkModeContext"
 import { useCarritoContext } from "../../context/CarritoContext"
+import { toast } from 'react-toastify';
 export const ItemDetail = ({ prod }) => {
     const { darkMode } = useDarkModeContext()
     const { addItem } = useCarritoContext()
 
     const onAdd = (cantidad) => { //Agregar producto al carrito
         addItem(prod, cantidad)
+        toast(`Producto ${prod.nombre} ${prod.modelo} agregado al carrito.`, {
+            position: "top-right",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "dark",
+        });
     }
 
     return (
