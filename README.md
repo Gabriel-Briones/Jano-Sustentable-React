@@ -6,7 +6,7 @@ Alumno: Briones Gabriel
 
 Video de funcionalidad: https://youtu.be/p_aMS8TYt-w
 
-Página montada en Vercel: jano-sustentable-react.vercel.app 
+Página montada en Vercel: https://jano-sustentable-react.vercel.app/
 
 ## Instalar React y las siguientes dependencias:
 
