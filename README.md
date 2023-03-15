@@ -4,7 +4,7 @@ Alumno: Briones Gabriel
 
 ## Tienda realizada en React: Jano Sustentable, tienda de artículos de cuidado personal sustentables con el medio ambiente.
 
-Video de funcionalidad: www.youtube.com/
+Video de funcionalidad: https://youtu.be/p_aMS8TYt-w
 
 ## Instalar React y las siguientes dependencias:
 
